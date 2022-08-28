@@ -1,0 +1,2179 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="照明期刊 - 一灯网">
+      
+      
+      
+      <link rel="icon" href="../../imgs/favicon.ico">
+      <meta name="generator" content="mkdocs-1.3.1, mkdocs-material-8.4.1">
+    
+    
+      
+        <title>led球泡灯技术规范 - 照明期刊 - 一灯网</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.69437709.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.cbb835fc.min.css">
+        
+      
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#led" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href="../.." title="照明期刊 - 一灯网" class="md-header__button md-logo" aria-label="照明期刊 - 一灯网" data-md-component="logo">
+      
+  <img src="../../imgs/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            照明期刊 - 一灯网
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              led球泡灯技术规范
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" aria-label="分享" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="清空当前内容" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="标签" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      Welcome to MkDocs
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../help/" class="md-tabs__link">
+      FOQ
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../home/" class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../gb/" class="md-tabs__link">
+        Gb
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../lightbasic/" class="md-tabs__link">
+        Lightbasic
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="./" class="md-tabs__link md-tabs__link--active">
+        Rd
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../special/" class="md-tabs__link">
+        Special
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="照明期刊 - 一灯网" class="md-nav__button md-logo" aria-label="照明期刊 - 一灯网" data-md-component="logo">
+      
+  <img src="../../imgs/logo.png" alt="logo">
+
+    </a>
+    照明期刊 - 一灯网
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Welcome to MkDocs
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/" class="md-nav__link">
+        FOQ
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../home/" class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
+      
+      
+      
+        
+          
+            
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../gb/">Gb</a>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Gb" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Gb
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" checked>
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../lightbasic/">Lightbasic</a>
+          
+            <label for="__nav_5">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Lightbasic" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Lightbasic
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lightbasic/annx/" class="md-nav__link">
+        照明产品安全性能要求
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lightbasic/dgy/" class="md-nav__link">
+        光源
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lightbasic/dj/" class="md-nav__link">
+        Dj
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lightbasic/first/" class="md-nav__link">
+        照明基础教程
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lightbasic/gn/" class="md-nav__link">
+        照明概念
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lightbasic/gx/" class="md-nav__link">
+        光学知识
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lightbasic/org/" class="md-nav__link">
+        照明组织机构
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lightbasic/zmsj/" class="md-nav__link">
+        Zmsj
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" checked>
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_6">
+          Rd
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Rd" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Rd
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          led球泡灯技术规范
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        led球泡灯技术规范
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    前言
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    术语和定义
+  </a>
+  
+    <nav class="md-nav" aria-label="术语和定义">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-ledled-bulb" class="md-nav__link">
+    1.1 LED球泡灯LED bulb
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12" class="md-nav__link">
+    1.2 额定值
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13" class="md-nav__link">
+    1.3 额定功率
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14" class="md-nav__link">
+    1.4 初始光能量
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15" class="md-nav__link">
+    1.5 初始色温
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#16" class="md-nav__link">
+    1.6 初始光效
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#17" class="md-nav__link">
+    1.7 初始色温指数
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#18" class="md-nav__link">
+    1.8 光通量维持率
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#19" class="md-nav__link">
+    1.9 灯具配光特性
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#110" class="md-nav__link">
+    1.10 可控式灯具
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#111" class="md-nav__link">
+    1.11 开关次数
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    分类方法
+  </a>
+  
+    <nav class="md-nav" aria-label="分类方法">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    按接口类型分类
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    按功率大小分类
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    按照相关色温区间分类
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    按照显色指数分类
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    按照可否调光分类
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    命名规则
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    技术要求
+  </a>
+  
+    <nav class="md-nav" aria-label="技术要求">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    安全要求
+  </a>
+  
+    <nav class="md-nav" aria-label="安全要求">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    电磁兼容要求
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    光电技术性能要求
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    初始光通量
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    初始色温
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    初始光效
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    初始显色指数
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    灯具的调光控制特性
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_19" class="md-nav__link">
+    寿命要求
+  </a>
+  
+    <nav class="md-nav" aria-label="寿命要求">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_20" class="md-nav__link">
+    寿命
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_21" class="md-nav__link">
+    光能维持率
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_22" class="md-nav__link">
+    开关试验
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_23" class="md-nav__link">
+    外观要求
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_24" class="md-nav__link">
+    能效要求
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_25" class="md-nav__link">
+    工作环境的要求
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_26" class="md-nav__link">
+    试验方法
+  </a>
+  
+    <nav class="md-nav" aria-label="试验方法">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_27" class="md-nav__link">
+    电磁兼容性能试验
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_28" class="md-nav__link">
+    光、电性能测试
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_29" class="md-nav__link">
+    寿命试验
+  </a>
+  
+    <nav class="md-nav" aria-label="寿命试验">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_30" class="md-nav__link">
+    样品选择
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_31" class="md-nav__link">
+    寿命值
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_32" class="md-nav__link">
+    光通维持率
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_33" class="md-nav__link">
+    开关试验
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_34" class="md-nav__link">
+    外观检验
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_35" class="md-nav__link">
+    检验规则及合格判定方法
+  </a>
+  
+    <nav class="md-nav" aria-label="检验规则及合格判定方法">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_36" class="md-nav__link">
+    检验的分类
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_37" class="md-nav__link">
+    出厂检验
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_38" class="md-nav__link">
+    型式检验
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_39" class="md-nav__link">
+    标识、使用说明、包装、存储
+  </a>
+  
+    <nav class="md-nav" aria-label="标识、使用说明、包装、存储">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_40" class="md-nav__link">
+    标识
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_41" class="md-nav__link">
+    使用说明书
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_42" class="md-nav__link">
+    包装
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_43" class="md-nav__link">
+    贮存
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_44" class="md-nav__link">
+    附录
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dj/" class="md-nav__link">
+        灯具设计安规手册
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pdf/" class="md-nav__link">
+        照明行业资料PDF汇总
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../soft/" class="md-nav__link">
+        照明行业软件汇总
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" checked>
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../special/">Special</a>
+          
+            <label for="__nav_7">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Special" data-md-level="1">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          Special
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../special/laser/" class="md-nav__link">
+        激光照明
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../special/plant/" class="md-nav__link">
+        植物照明
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    前言
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    术语和定义
+  </a>
+  
+    <nav class="md-nav" aria-label="术语和定义">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-ledled-bulb" class="md-nav__link">
+    1.1 LED球泡灯LED bulb
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12" class="md-nav__link">
+    1.2 额定值
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13" class="md-nav__link">
+    1.3 额定功率
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14" class="md-nav__link">
+    1.4 初始光能量
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15" class="md-nav__link">
+    1.5 初始色温
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#16" class="md-nav__link">
+    1.6 初始光效
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#17" class="md-nav__link">
+    1.7 初始色温指数
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#18" class="md-nav__link">
+    1.8 光通量维持率
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#19" class="md-nav__link">
+    1.9 灯具配光特性
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#110" class="md-nav__link">
+    1.10 可控式灯具
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#111" class="md-nav__link">
+    1.11 开关次数
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    分类方法
+  </a>
+  
+    <nav class="md-nav" aria-label="分类方法">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    按接口类型分类
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    按功率大小分类
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    按照相关色温区间分类
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    按照显色指数分类
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    按照可否调光分类
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    命名规则
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    技术要求
+  </a>
+  
+    <nav class="md-nav" aria-label="技术要求">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    安全要求
+  </a>
+  
+    <nav class="md-nav" aria-label="安全要求">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    电磁兼容要求
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    光电技术性能要求
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    初始光通量
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    初始色温
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    初始光效
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    初始显色指数
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    灯具的调光控制特性
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_19" class="md-nav__link">
+    寿命要求
+  </a>
+  
+    <nav class="md-nav" aria-label="寿命要求">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_20" class="md-nav__link">
+    寿命
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_21" class="md-nav__link">
+    光能维持率
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_22" class="md-nav__link">
+    开关试验
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_23" class="md-nav__link">
+    外观要求
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_24" class="md-nav__link">
+    能效要求
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_25" class="md-nav__link">
+    工作环境的要求
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_26" class="md-nav__link">
+    试验方法
+  </a>
+  
+    <nav class="md-nav" aria-label="试验方法">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_27" class="md-nav__link">
+    电磁兼容性能试验
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_28" class="md-nav__link">
+    光、电性能测试
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_29" class="md-nav__link">
+    寿命试验
+  </a>
+  
+    <nav class="md-nav" aria-label="寿命试验">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_30" class="md-nav__link">
+    样品选择
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_31" class="md-nav__link">
+    寿命值
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_32" class="md-nav__link">
+    光通维持率
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_33" class="md-nav__link">
+    开关试验
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_34" class="md-nav__link">
+    外观检验
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_35" class="md-nav__link">
+    检验规则及合格判定方法
+  </a>
+  
+    <nav class="md-nav" aria-label="检验规则及合格判定方法">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_36" class="md-nav__link">
+    检验的分类
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_37" class="md-nav__link">
+    出厂检验
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_38" class="md-nav__link">
+    型式检验
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_39" class="md-nav__link">
+    标识、使用说明、包装、存储
+  </a>
+  
+    <nav class="md-nav" aria-label="标识、使用说明、包装、存储">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_40" class="md-nav__link">
+    标识
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_41" class="md-nav__link">
+    使用说明书
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_42" class="md-nav__link">
+    包装
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_43" class="md-nav__link">
+    贮存
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_44" class="md-nav__link">
+    附录
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+
+<h1 id="led">led球泡灯技术规范</h1>
+<h2 id="_1">前言</h2>
+<p>led球泡灯技术规范按照GB/T 1.1–2009《标准化工作导则 第1部份：标准的结构和编写规则》的规定编制。本规范规定了LED球泡灯产品的分类，技术要求、能效要求、检验方法、包装和贮存方面的要求。本规范适用于室内照明用LED球泡灯。下列文件对于本文件的应用是必不可少的。凡是注日期的引用文件，仅所注日期的版本适用于本文件。凡是不注日期的引用文件，其最新版本（包括所有的修改单）适用于本文件。</p>
+<p>GB/T 1406 灯头的形式的尺寸</p>
+<p>GB 17625.1 电磁兼容、限值、谐波电流发射限值（设备每相电流输入≤16A）</p>
+<p>GB 17743 电气照明和类似设备的无线电骚扰特性的限值和测试方法</p>
+<p>GB/T 18595 一般照明用设备电磁兼容抗扰度要求</p>
+<p>GB/T 24824 普通照明用LED模块测试方法</p>
+<p>GB 24906 普通照明用50V自镇流LED灯安全要求</p>
+<h2 id="_2">术语和定义</h2>
+<h3 id="11-ledled-bulb">1.1 LED球泡灯LED bulb</h3>
+<p>由LED光源、驱动电路、散热装置等组成，采用现有的接口方式（如螺口、卡口方式，E26\E27\E24\B22等），用于代替传统白织灯的一体式自镇流LED灯泡。</p>
+<h3 id="12">1.2 额定值</h3>
+<p>rating
+LED照明产品在规定的工作条件下其特定数值。（该值及条件由本标准规定，或由制造商或销售商规定。）</p>
+<h3 id="13">1.3 额定功率</h3>
+<p>power rating
+厂家标称的在额定电参数条件下LED照明产品工作所耗费的功率。</p>
+<h3 id="14">1.4 初始光能量</h3>
+<p>initial luminous flux
+LED照明产品所发出的总光通量的初始值。</p>
+<h3 id="15">1.5 初始色温</h3>
+<p>initial color temperature CCT0
+LED照明产品的色温初始值。</p>
+<h3 id="16">1.6 初始光效</h3>
+<p>initial luminous efficacy of light source</p>
+<p>LED照明产品发光效率的初始值。</p>
+<h3 id="17">1.7 初始色温指数</h3>
+<p>initial color rendering index
+Ra0
+LED照明产品显色指数的初始值。</p>
+<h3 id="18">1.8 光通量维持率</h3>
+<p>luminous flux maintanance
+LED照明产品在规定的工作条件下点亮，在寿命期间内一特定时间的光通量与初始光通量之比。如：1000小时的光通维持率为96%，表示为96%[1000h]。（光通维持率用百分比[小时](%[h])）表示。</p>
+<h3 id="19">1.9 灯具配光特性</h3>
+<p>lamps and lanterns distribution of light characteristics</p>
+<p>LED灯具发射可见光的光度（如照度、发光强度等）分布。</p>
+<h3 id="110">1.10 可控式灯具</h3>
+<p>controlled luminaire
+通过改变电参数进行亮度、色温、亮度和色温同时调节，实现单控制或多灯控制的灯具。</p>
+<h3 id="111">1.11 开关次数</h3>
+<p>off and on times
+LED照明产品加电或断电的次数</p>
+<h2 id="_3">分类方法</h2>
+<h3 id="_4">按接口类型分类</h3>
+<p>采用了现有的接口方式可分为螺口（用大写字母E来表示）、卡口方式（用大写字母B来表示）。如：E27/E26表示螺口灯头，后面数字表示螺口直径。</p>
+<h3 id="_5">按功率大小分类</h3>
+<p>按照LED球泡灯的额定输入功率，用整数表示，分为3W、4W、5W、6W、7W、8W、9W、10W等规格，具有小数的按数理统计取整数表示（即4舍6入5逢双），不足2位数用0代替。</p>
+<h3 id="_6">按照相关色温区间分类</h3>
+<p>LED球泡灯的色温应该符合表所示的额定色温区间</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">分类</th>
+<th style="text-align: center;">标示色温CCT（K）</th>
+<th style="text-align: center;">CCT（K）误差允许范围</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">N 暖白色</td>
+<td style="text-align: center;">2700</td>
+<td style="text-align: center;">2725±145</td>
+</tr>
+<tr>
+<td style="text-align: center;">N 暖白色</td>
+<td style="text-align: center;">3000</td>
+<td style="text-align: center;">3045±175</td>
+</tr>
+<tr>
+<td style="text-align: center;">N 暖白色</td>
+<td style="text-align: center;">3500</td>
+<td style="text-align: center;">3465±245</td>
+</tr>
+<tr>
+<td style="text-align: center;">Z 正白色</td>
+<td style="text-align: center;">4000</td>
+<td style="text-align: center;">3985±275</td>
+</tr>
+<tr>
+<td style="text-align: center;">Z 正白色</td>
+<td style="text-align: center;">4500</td>
+<td style="text-align: center;">4503±243</td>
+</tr>
+<tr>
+<td style="text-align: center;">L 冷白色</td>
+<td style="text-align: center;">5000</td>
+<td style="text-align: center;">5028±283</td>
+</tr>
+<tr>
+<td style="text-align: center;">L 冷白色</td>
+<td style="text-align: center;">5700</td>
+<td style="text-align: center;">5665±355</td>
+</tr>
+<tr>
+<td style="text-align: center;">L 冷白色</td>
+<td style="text-align: center;">6500</td>
+<td style="text-align: center;">6530±510</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_7">按照显色指数分类</h3>
+<p>按照产品显色指数划分为Ⅰ档和Ⅱ档。</p>
+<p>其中Ⅰ档：Ra≥80；Ⅱ档：70≦Ra&lt;80。</p>
+<h3 id="_8">按照可否调光分类</h3>
+<p>C类：具有控制功能</p>
+<p>U类：不具有控制功能</p>
+<h3 id="_9">命名规则</h3>
+<p>LED球泡灯产品的命名必须包含以下内容</p>
+<p><img alt="" src="" title="/rd/bulb-1.png" /></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">编号</th>
+<th style="text-align: center;">组成</th>
+<th style="text-align: center;">表示意义</th>
+<th style="text-align: center;">示例</th>
+<th style="text-align: center;">示例表示意义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">2位大写字母</td>
+<td style="text-align: center;">用途及光源类型</td>
+<td style="text-align: center;">NL</td>
+<td style="text-align: center;">室内用照明灯</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">2位大写字母</td>
+<td style="text-align: center;">灯的类型代号</td>
+<td style="text-align: center;">QP</td>
+<td style="text-align: center;">球泡灯系列类型</td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2位大写字母和数字</td>
+<td style="text-align: center;">灯的安装方式</td>
+<td style="text-align: center;">E27</td>
+<td style="text-align: center;">灯头类型</td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">1位大写字母</td>
+<td style="text-align: center;">控制功能</td>
+<td style="text-align: center;">U</td>
+<td style="text-align: center;">无控制功能</td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">1位大写字母</td>
+<td style="text-align: center;">色温</td>
+<td style="text-align: center;">N</td>
+<td style="text-align: center;">暖白色色温</td>
+</tr>
+<tr>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">1位大写字母</td>
+<td style="text-align: center;">色温</td>
+<td style="text-align: center;">N</td>
+<td style="text-align: center;">暖白色色温</td>
+</tr>
+<tr>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">1位大写字母、1位数字及2位字母或数字</td>
+<td style="text-align: center;">开发序号</td>
+<td style="text-align: center;">A0xx</td>
+<td style="text-align: center;">A型，流水号为0，xx由制造商确定</td>
+</tr>
+</tbody>
+</table>
+<p>注1：用途和光源类型代号由2位大写字母“NL”组成，表示“室内用LED照明灯”。</p>
+<p>注2：灯的类型2位大写字母，由以下规则定义：</p>
+<p>QP——球泡。</p>
+<p>注3：球泡灯的安装方式由1位大写字母和数字组成，由以下规则定义：</p>
+<p>E27——灯头为E27类型的球泡灯。</p>
+<p>注4：球泡灯的安装方式由1位大写字母和数字组成，由以下规则定义：</p>
+<p>C——具有控制功能；</p>
+<p>U——不具有控制功能。</p>
+<p>注5：电源功率代号，包括1位大写字母和1或2位数字组成，由以下规则定义：</p>
+<p>1）交流电压定义规则；</p>
+<p>2）用交流电压供电的灯具，数据前加“A”再加额定功率的数字，单位为W。</p>
+<p>注6：色温代号，用1位大写字母表示。</p>
+<p>注7：开发序号，包括1位大写字母、1位数字和2位字母或数字，其中1位字母表示产品的设计代号，2位数字表示产品的改进流水号，2位字母或数字由制造商确定其它特性。</p>
+<h2 id="_10">技术要求</h2>
+<h3 id="_11">安全要求</h3>
+<h4 id="_12">电磁兼容要求</h4>
+<ul>
+<li>无线电骚扰特性应符合GB 17743的要求。</li>
+<li>输入谐波电流应符合GB 17625.1的要求。</li>
+<li>电磁兼容抗扰度应符合GB/T 18595 的要求</li>
+</ul>
+<h4 id="_13">光电技术性能要求</h4>
+<ul>
+<li>
+<p>功率：在额定电压和额定频率下工作时，LED球泡灯实际消耗的功率P与额定功率Pm之差应为｜P-Pm｜≤1W。</p>
+</li>
+<li>
+<p>功率因数：在额定电压和额定频率下工作时，其实际功率因数应满足表的要求。</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>实测功率</th>
+<th>最低功率因数要求</th>
+<th>其他要求</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>实测功率≤5W</td>
+<td>≥0.50</td>
+<td>实测功率因数+0.5≥功率因数的标称值</td>
+</tr>
+<tr>
+<td>实测功率&gt;5W</td>
+<td>≥0.50</td>
+<td>实测功率因数+0.5≥功率因数的标称值</td>
+</tr>
+</tbody>
+</table>
+<h4 id="_14">初始光通量</h4>
+<p>在额定输入电压和频率条件下，LED球泡灯工作2个小时后测试的光通量称为初始光通量。初始光通量应不小于标称值的95%。</p>
+<h3 id="_15">初始色温</h3>
+<p>在额定输入电压和频率条件下，LED球泡灯工作2小时后测试的色温称为初始光通量。初始色温应满足表的要求。
+|   分类   | 标示色温CCT（K） | CCT（K）误差允许范围 |
+| :------: | :--------------: | :------------------: |
+| N 暖白色 |       2700       |       2725±145       |
+| N 暖白色 |       3000       |       3045±175       |
+| N 暖白色 |       3500       |       3465±245       |
+| Z 正白色 |       4000       |       3985±275       |
+| Z 正白色 |       4500       |       4503±243       |
+| L 冷白色 |       5000       |       5028±283       |
+| L 冷白色 |       5700       |       5665±355       |
+| L 冷白色 |       6500       |       6530±510       |</p>
+<h3 id="_16">初始光效</h3>
+<p>在额定输入电压和频率条件下，LED球泡灯工作2小时后测试的光效称为初始光效。初始光效不低于标称光效的95%。</p>
+<h3 id="_17">初始显色指数</h3>
+<p>在额定输入电压和频率的条件下，LED球泡灯工作2小时后测试的显色指数称为初始显色指数。出示显色指数应满足表的要求
+|   初始显色指数要求   | 其他要求 |
+| :------: | :--------------: |
+| Ra≥70 |       初始显色指数≥显色指数标称值-3       |</p>
+<h3 id="_18">灯具的调光控制特性</h3>
+<p>灯具设计可接受模拟或数字调光控制信号，调整输出电流，按照整灯功率实现最少2级或无极调光。</p>
+<h2 id="_19">寿命要求</h2>
+<h3 id="_20">寿命</h3>
+<p>LED球泡灯保持正常燃点至光通维持率衰减至70%的累积燃点时间。</p>
+<h3 id="_21">光能维持率</h3>
+<p>灯具在额定输入电压和频率下点亮3000小时时，其光通维持率应不低于96%；在点亮6000小时时，其光通维持率应不低于92%。在额定寿命小时时，其光通维持率应不低于70%。</p>
+<h3 id="_22">开关试验</h3>
+<p>产品经15000次正常开/关试验（30秒开，30秒关）后仍能正常工作。</p>
+<h3 id="_23">外观要求</h3>
+<ul>
+<li>标准型：类似普通照明白炽灯的外形。</li>
+<li>非标准型：制造商自定义的外形。</li>
+<li>非标型LED球泡灯的外形应符合制造商的规定，且灯头应符合GB/T 1406系列的要求。</li>
+</ul>
+<h3 id="_24">能效要求</h3>
+<p>LED球泡灯的能效等级遵循表的评价，能效等级以初始光效η来衡量。η的单位为流明/每瓦特，即1m/W。
+|   能效分级   | 初始光效（lm/W） |
+| :------: | :--------------: |
+| 1级能效 |       η≥100       |
+| 2级能效 |       80≤η&lt;100       |
+| 3级能效 |       60≤η&lt;80       |</p>
+<h3 id="_25">工作环境的要求</h3>
+<p>LED球泡灯在表3-7所示的温度及温度环境下正常燃点及工作。如超过表要求的须依据生产或销售商产品标示。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">工作温度</th>
+<th style="text-align: center;">工作湿度</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">-20℃～45℃</td>
+<td style="text-align: center;">30%～90%</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_26">试验方法</h2>
+<p>除另有规定的项目外，全部试验均应在环境温度为25℃±2℃，相对温度最大为65%的无对流风的环境中进行。
+整个测试期间，电源电压应稳定在±2%以内，电源电压的谐波含量不得超过3%。
+各项试验在额定工作条件下进行，灯具应置于自由空间中，发光面的法线方向朝下。</p>
+<p>安全方面应依据GB 24906的相关要求进行测试。</p>
+<h3 id="_27">电磁兼容性能试验</h3>
+<ul>
+<li>无线电骚扰特性应依据GB 17743标准要求进行测试。</li>
+<li>输入谐波电流应依据GB 17625.1标准要求进行测试。</li>
+<li>电磁兼容抗度应依据GB/T 18595标准进行测试。</li>
+</ul>
+<h3 id="_28">光、电性能测试</h3>
+<ul>
+<li>灯具的光、电性能（包括整灯功率、功率因数、初始光通量、色温、初始光效、显色指数、光效）应依据GB/T 24824的要求进行测试。</li>
+<li>调光特性试验按照整灯光通量实现最少2级或无极调光，0～100%光通量变换期间LED球泡灯不得出现闪亮。</li>
+</ul>
+<h3 id="_29">寿命试验</h3>
+<h4 id="_30">样品选择</h4>
+<p>测试样品数量不少于3支。试验中，灯具不得出现 任何故障、烧毁，否则不合格。</p>
+<h4 id="_31">寿命值</h4>
+<p>寿命应依据GB/T 24824附录D推算LED球泡灯光通量下降到起始值的70%的时间，即寿命推算值。</p>
+<h4 id="_32">光通维持率</h4>
+<p>光通维持率应依据GB/T 24824的相关要求进行测试。</p>
+<h4 id="_33">开关试验</h4>
+<p>产品经15000次正常开/关（30秒开，30秒关）试验后仍能够正常工作。</p>
+<h4 id="_34">外观检验</h4>
+<p>采用精度不小于0.05mm通用量规或量具检验。尺寸误差应不大于制造商的规定。外观要求应符合制造商的规定。</p>
+<h2 id="_35">检验规则及合格判定方法</h2>
+<h3 id="_36">检验的分类</h3>
+<p>产品检验分为出厂检验和型式检验。</p>
+<h3 id="_37">出厂检验</h3>
+<ul>
+<li>灯具应经检验部门检验合格并签发合格证明书后方能出厂。</li>
+<li>出厂检验项目见表。依生产商抽样标准进行抽检，对于抽检项目检测不合格的。应加倍抽样进行检查。复验合格后，方可包装出厂。复验不合格，则定此批产品不合格；其他项目不合格，应采取修复措施，经检验合格后方可出厂。</li>
+</ul>
+<h3 id="_38">型式检验</h3>
+<p>型式检验应在下列情况之一下进行
+1. 新产品的生产试制定型定时；
+2. 定型产品正式生产后，如结构、材料或生产工艺有较大改变，可能影响产品性能时；
+3. 产品停产半年以上，恢复生产时；
+4. 出厂检验的样品从批量生产中抽取4件，最小批量不少于30套。如果灯具的光、电及颜色性能有不合格项，则判定为不合格。其他项目若有不合格项，应在同批次产品中加倍抽样，对不合格项目进行复检，仍不合格，则定型检验为不合格，检验项目如表5-3-1所示。</p>
+<p><img alt="" src="/rd/bulb-2.png" /></p>
+<h2 id="_39">标识、使用说明、包装、存储</h2>
+<h3 id="_40">标识</h3>
+<p>LED球泡灯产品本体上至少包含以下清晰且不易擦掉的信息；</p>
+<ul>
+<li>a） 额定电压/功率；</li>
+<li>b） 额定功率；</li>
+<li>c） 来源标记（可以是商标、制造商识别标记或责任销售商的名称）。</li>
+</ul>
+<p>产品包装盒上至少应包含以下清晰且不易探掉的信息：</p>
+<ul>
+<li>a） 制造商或销售商的名称、地址及商标；</li>
+<li>b） 产品的名称和型号；</li>
+<li>c） 产品的初始光通量、初始色温、初始光效、初始显色指数及能效等级；</li>
+<li>d） 产品的额定电压、额定功率和额定频率；</li>
+<li>e） 产品的质保年限；</li>
+<li>f） 产品的使用环境要求；</li>
+<li>g） 是否能够用于调光器的说明；</li>
+<li>h） 其他使用限制的说明；</li>
+<li>i） 其他有关标志。</li>
+</ul>
+<h3 id="_41">使用说明书</h3>
+<p>针对可控LED灯泡，需在说明书中特别标适用的调光器类型，或说明查询方法。</p>
+<h3 id="_42">包装</h3>
+<p>包装应安全可靠，在产品的包装箱内应装入下列文件：</p>
+<ul>
+<li>1）产品合格证；</li>
+<li>2）产品使用说明书；</li>
+<li>3）附件及其他相关文件。</li>
+</ul>
+<h3 id="_43">贮存</h3>
+<p>LED球泡灯包装后贮存在相对湿度不大于85%、通风、干燥、无腐蚀性介质的室内。仓库中应没有有害气体和易燃晚爆及有腐蚀性化学物质。灯具不可重压，且应无强烈机械震动、冲击和磁场作用等。</p>
+<h3 id="_44">附录</h3>
+<p>LED球泡灯是替代传统白炽灯泡的新型节能灯。用于取代白炽灯时，为了使消费能直观的对比LED球泡灯与传统白炽灯（见表），LED球泡灯可以做如下的标示，如：“相当于40W的白炽灯”。此时LED球泡灯的初始光通量需满足表的要求。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">区分</th>
+<th style="text-align: center;">初始光通量（lm）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">24W白炽灯</td>
+<td style="text-align: center;">223</td>
+</tr>
+<tr>
+<td style="text-align: center;">30W白炽灯</td>
+<td style="text-align: center;">301</td>
+</tr>
+<tr>
+<td style="text-align: center;">40W白炽灯</td>
+<td style="text-align: center;">402</td>
+</tr>
+<tr>
+<td style="text-align: center;">50W白炽灯</td>
+<td style="text-align: center;">576</td>
+</tr>
+<tr>
+<td style="text-align: center;">60W白炽灯</td>
+<td style="text-align: center;">692</td>
+</tr>
+<tr>
+<td style="text-align: center;">75W白炽灯</td>
+<td style="text-align: center;">907</td>
+</tr>
+<tr>
+<td style="text-align: center;">100W白炽灯</td>
+<td style="text-align: center;">1306</td>
+</tr>
+<tr>
+<td style="text-align: center;">150W白炽灯</td>
+<td style="text-align: center;">2110</td>
+</tr>
+<tr>
+<td style="text-align: center;">200W白炽灯</td>
+<td style="text-align: center;">2990</td>
+</tr>
+</tbody>
+</table>
+<p>注：白炽灯光通量来源于GB/T 10681-2009 高光通量白炽灯参数表。30W及50W初始光通量是分别由40W和60W等比推算。</p>
+
+
+
+
+              
+            </article>
+            
+          </div>
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            回到页面顶部
+          </a>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="页脚" >
+      
+        
+        <a href="../../lightbasic/zmsj/" class="md-footer__link md-footer__link--prev" aria-label="上一页: Zmsj" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                上一页
+              </span>
+              Zmsj
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../dj/" class="md-footer__link md-footer__link--next" aria-label="下一页: 灯具设计安规手册" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                下一页
+              </span>
+              灯具设计安规手册
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.annotate", "navigation.expand", "navigation.indexes", "navigation.sections", "navigation.tabs", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest"], "search": "../../assets/javascripts/workers/search.ecf98df9.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.config.lang": "ja", "search.config.pipeline": "trimmer, stemmer", "search.config.separator": "[\\s\\-\uff0c\u3002]+", "search.placeholder": "\u641c\u7d22", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version.title": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.9c69f0bc.min.js"></script>
+      
+    
+  </body>
+</html>
