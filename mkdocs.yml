@@ -40,12 +40,12 @@ plugins:
 repo_name: lightcax/wiki
 repo_url: https://github.com/lightcax/wiki
 nav:
-  - 首页: 
+  - 🌈首页: 
     - 介绍: index.md
     - 一灯网帮助: help.md
-  - 照明周刊:
+  - 🚀照明周刊:
     - 介绍: week/index.md
-  - 照明基础教程:
+  - 💎照明基础教程:
     - 目录: lightbasic/first.md
     - 照明概念: lightbasic/gn.md
     - 光学知识: lightbasic/gx.md
@@ -54,15 +54,18 @@ nav:
     - 安全性能要求: lightbasic/annx.md
     - 照明设计介绍: lightbasic/zmsj.md
     - 照明组织机构: lightbasic/org.md
-  - 照明研发手册:
+  - 🗃️照明研发手册:
     - 灯具设计安规手册: rd/dj.md
     - led球泡灯技术规范: rd/bulb.md
     - 照明行业软件汇总: rd/soft.md
     - 照明行业资料汇总: rd/pdf.md
-  - 标准类手册:
-    - GB 7000: gb/gb7000.md
-  - 其他照明手册:
+  - 🎯标准类手册:
+    - GB 7000灯具标准: gb/gb7000.md
+    - 读写性能台灯作业要求: gb/gb9473.md
+  - 💡其他照明手册:
     - 目录: special/index.md
     - 植物照明手册: special/plant.md
     - 激光照明: special/laser.md
-  - 一灯网: http://www.lightooo.com
+  - 📈行业数据:
+    - 目录: data/index.md
+  - 🔗一灯网: http://www.lightooo.com
