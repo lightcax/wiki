@@ -1,0 +1,37 @@
+site_name: 照明期刊 - 一灯网
+site_description: 照明期刊 - 一灯网
+markdown_extensions:
+  # - admonition
+  # - def_list
+  # - codehilite
+  # - tables
+  - pymdownx.highlight:
+      anchor_linenums: true
+      linenums: true
+      # auto_title: true
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      # clickable_checkbox: true
+theme:
+  name: material
+  language: zh
+  logo: ./imgs/logo.png
+  favicon: ./imgs/favicon.ico
+  features:
+    - content.code.annotate
+    - navigation.expand
+    - navigation.indexes
+    - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+plugins:
+  - search:
+      separator: '[\s\u200b\-]'
