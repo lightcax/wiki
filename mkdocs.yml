@@ -1,9 +1,10 @@
-site_name: 照明期刊 - 一灯网
+site_name: 照明周刊 - 一灯网
 site_description: 一灯照明手册，学习照明知识技能、解决照明问题，查询各类照明数据
 markdown_extensions:
   - admonition
   - pymdownx.details
   - tables
+  - footnotes
   # - def_list
   # - codehilite
   - pymdownx.highlight:
@@ -33,6 +34,19 @@ theme:
     - search.highlight
     - search.share
     - search.suggest
+  palette:
+    - accent: indigo
+      primary: indigo
+      scheme: default
+      toggle:
+        icon: material/brightness-5
+        name: 切换暗黑模式
+    - accent: black
+      primary: black
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: 切换白天模式
 plugins:
   - search:
       separator: '[\s\u200b\-]'
@@ -44,7 +58,7 @@ nav:
     - 介绍: index.md
     - 一灯网帮助: help.md
   - 🚀照明周刊:
-    - 介绍: week/index.md
+    - 第1期: week/2022/1.md
   - 💎照明基础教程:
     - 目录: lightbasic/first.md
     - 照明概念: lightbasic/gn.md
@@ -60,8 +74,28 @@ nav:
     - 照明行业软件汇总: rd/soft.md
     - 照明行业资料汇总: rd/pdf.md
   - 🎯标准类手册:
-    - GB 7000灯具标准: gb/gb7000.md
+    # - 目录: gb/index.md
+    - GB 7000系列灯具标准: gb/gb7000.md
+    - 电气照明和类似设备的无线电骚扰特性的限值和测量方法: gb/gbt17743.md
     - 读写性能台灯作业要求: gb/gb9473.md
+    - 国际照明标准清单: bz/globe.md
+    - 中国照明标准清单: gb/all.md
+  - 7️⃣GB 7000.1:
+    - 目录: gb7000/index.md
+    - 术语和定义: gb7000/1.md
+    - 灯具的分类: gb7000/2.md
+    - 标记: gb7000/3.md
+    - 结构: gb7000/4.md
+    - 外部接线和内部接线: gb7000/5.md
+    - 接地规定: gb7000/7.md
+    - 防触电保护: gb7000/8.md
+    - 防尘 、防固体异物和防水: gb7000/9.md
+    - 绝缘电阻和电气强度、接触电流和保护导体电流: gb7000/10.md
+    - 爬电距离和电气间隙: gb7000/11.md
+    - 耐久性试验和热试验: gb7000/12.md
+    - 耐热、耐火和耐起痕: gb7000/13.md
+    - 螺纹接线端子: gb7000/14.md
+    - 无螺纹接线端子和电气连接件: gb7000/15.md
   - 💡其他照明手册:
     - 目录: special/index.md
     - 植物照明手册: special/plant.md
